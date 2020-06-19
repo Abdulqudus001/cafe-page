@@ -28,6 +28,10 @@ a {
   background-size: cover;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -76,4 +80,44 @@ ul {
 
 .contact {
   color: white;
+}
+
+h3 {
+  color: var(--primary);
+  margin: 25px 0;
+}
+
+.contact p {
+  width: 80%;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  padding: 15px;
+  border: none;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: var(--primary);
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  padding: 15px;
+}
+
+.yellow {
+  color: var(--primary);
+}
+
+li.row i {
+  width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .my-sm {
+    margin: 8px 0;
+  }
 }

@@ -6,6 +6,7 @@
   <title>Cafe | Contact Us</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
@@ -39,21 +40,49 @@
     </div>
   </div>
   <section class="contact container">
-    <div class="row mr-0 ml-0">
-      <div class="col-sm-12 col-md-6">
-        <h3>Keep in Touch</h3>
+    <h3 class="ml-3 pt-5">Keep in Touch</h3>
+    <div class="row mr-0 ml-0 pt-3 pb-5">
+      <div class="col-sm-12 col-md-6 mb-5">
         <p>
           We would love to hear from you and know your thoughts concerning our services
         </p>
         <form action="">
-          <input type="text" name="name" placeholder="Name">
-          <input type="email" name="email" placeholder="Email">
-          <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+          <input type="text" name="name" class="my-4" placeholder="Name">
+          <input type="email" name="email" class="my-4" placeholder="Email">
+          <textarea name="message" cols="30" rows="10" class="my-4" placeholder="Message"></textarea>
           <button type="submit">Send</button>
         </form>
       </div>
-      <div class="col-sm-12 col-md-6">There</div>
+      <div class="col-sm-12 col-md-6 mt-0">
+        <div class="map">
+          <img src="./assets/map.png" alt="Map of address">
+          <h3 class="yellow my-5">Contact Info</h3>
+          <ul class="contact-info">
+            <li class="row align-items-center flex-nowrap my-sm my-md-4 ml-0 mr-0">
+              <i class="fa fa-map-marker fa-2x yellow" aria-hidden="true"></i>
+              <p class="mb-0">
+                3100 Eve Street, Riverside, CA 83412
+              </p>
+            </li>
+            <li class="row align-items-center flex-nowrap my-sm my-md-4 ml-0 mr-0">
+              <i class="fa fa-envelope-o fa-2x yellow" aria-hidden="true"></i>
+              <p class="mb-0">
+                info@koficafe.com
+              </p>
+            </li>
+            <li class="row align-items-center flex-nowrap my-sm mt-md-4 ml-0 mr-0">
+              <i class="fa fa-phone fa-2x yellow" aria-hidden="true"></i>
+              <p class="mb-0">
+                08126345978, 01563948
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
+  <footer class="footer">
+    
+  </footer>
 </body>
 </html>
