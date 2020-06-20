@@ -34,34 +34,40 @@
       </ul>
     </div>
     <div class="container">
-      <nav class="navbar">
-        <a href="/" class="logo">
-          <img src="./assets/KofiCafe.png" alt="KofiCafe Logo">
-        </a>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Menu</a>
-          </li>
-          <li class="yellow">
-            <a href="#">Contact</a>
-          </li>
-          <li class="btn">
-            <a href="#">Order a Cup</a>
-          </li>
-        </ul>
-        <button class="menu d-block d-md-none" onclick="showNav()">
-          <i class="fa fa-bars fa-2x"></i>
-        </button>
-      </nav>
-      <div class="hero__main">
-        <h1>Contact us</h1>
-      </div>
+      <div class="container-fluid top-container">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top header" id="myHeader">
+            <div class="container">
+                <a class="navbar-brand" href="#" id="logo-link"><img src="assets/logo.svg" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
+                    id="nav-toggler">
+                    <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link top-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link top-link active" href="#">About></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link top-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link top-link" href="#">Contact
+                              <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="nav-link top-link" href="#"><button class="btn top-btn">Order A Cup</button></a>
+                </div>
+            </div>
+        </nav>
+        <div class="container main-heading">
+            <h1>About us</h1>
+        </div>
+    </div>
     </div>
   </div>
   <section class="contact container">
