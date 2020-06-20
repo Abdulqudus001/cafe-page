@@ -111,6 +111,10 @@ li.row i {
 }
 
 @media only screen and (max-width: 600px) {
+  .text-center-sm {
+    text-align: center;
+  }
+  
   .my-sm {
     margin: 12px 0;
   }
