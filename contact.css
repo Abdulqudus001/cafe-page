@@ -77,9 +77,9 @@ ul {
   color: white;
 }
 
-.contact p, .footer p {
+/* .contact p, .footer p {
   width: 80%;
-}
+} */
 
 input, textarea {
   display: block;
@@ -113,11 +113,5 @@ li.row i {
 @media only screen and (max-width: 600px) {
   .my-sm {
     margin: 12px 0;
-  }
-}
-
-@media only screen and (max-width: 720px) {
-  .navbar ul {
-    display: none;
   }
 }
