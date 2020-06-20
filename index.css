@@ -243,7 +243,7 @@ img {
       rgba(0, 0, 0, 0.83) 50%,
       rgba(0, 0, 0, 0.83) 100%
     ),
-    url("./assets/footer.png");
+    url("./assets/footer.jpg");
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,6 +273,10 @@ footer h3,
 .time,
 #bottom {
   color: #f8be2a;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
 }
 
 .social-icon {
