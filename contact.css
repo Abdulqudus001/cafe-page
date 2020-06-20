@@ -14,17 +14,23 @@ a {
   color: inherit;
 }
 
-.container {
+/* .container {
   width: 1366px;
   padding: 0 5px;
   max-width: calc(100% - 20px);
   margin: 0 auto;
-}
+} */
 
 .hero {
   width: 100%;
-  min-height: 70vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./assets/hero.png') no-repeat;
+  background: linear-gradient(
+      90deg,
+      rgba(34, 34, 34, 0.6) 0%,
+      rgba(34, 34, 34, 0.6) 50%,
+      rgba(34, 34, 34, 0.6) 100%
+    ),
+    url("./assets/hero.png") no-repeat;
+  min-height: 100vh;
   background-size: cover;
 }
 
@@ -45,49 +51,6 @@ img {
 ul {
   padding: 0;
   list-style-type: none;
-}
-
-.sidebar {
-  width: 0;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(28, 28, 28, 1);
-  z-index: 1;
-  display: block;
-}
-
-.sidebar.show {
-  width: 250px;
-  pointer-events: all;
-}
-
-.sidebar ul {
-  text-align: center;
-}
-
-.sidebar li {
-  margin: 20px 0;
-  color: #fff;
-}
-
-.navbar li {
-  display: inline-block;
-  margin: 0 20px;
-  color: #fff;
-}
-
-li.yellow {
-  color: var(--primary);
-}
-
-li.btn {
-  background-color: var(--primary);
-  padding: 10px 20px;
-  border-radius: 8px;
-  color: white;
 }
 
 .menu {
@@ -112,11 +75,6 @@ li.btn {
 
 .contact {
   color: white;
-}
-
-h3 {
-  color: var(--primary);
-  margin: 25px 0;
 }
 
 .contact p, .footer p {
@@ -150,37 +108,6 @@ li.row i {
 
 .logo {
   width: 120px;
-}
-
-.footer {
-  color: white;
-  padding: 20px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/footer.png') no-repeat;
-  background-size: cover;
-  min-height: 40vh;
-  display: flex;
-  align-items: center;
-}
-
-.days p
-
-.fa-2x {
-  font-size: 1.5rem;
-}
-
-.small {
-  font-size: 0.9rem;
-}
-
-.social-icon i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.4);
 }
 
 @media only screen and (max-width: 600px) {
